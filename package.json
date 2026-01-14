@@ -1,0 +1,13 @@
+{
+  "name": "form-api",
+  "version": "1.0.0",
+  "description": "Netlify Serverless Form Submission API",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'No build step required'",
+    "test": "node test/test-local.js"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+[build]
+  functions = "netlify/functions"
+
+[functions]
+  # Use esbuild for faster builds and smaller bundles
+  node_bundler = "esbuild"
+
+# Redirect for cleaner API endpoint
+[[redirects]]
+  from = "/api/submit-form"
+  to = "/.netlify/functions/submit-form"
+  status = 200
